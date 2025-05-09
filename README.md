@@ -46,6 +46,3 @@
 <details id="Zenodo DOI">
   <summary><strong>Digital Object Identifier (DOI)</strong></summary>
 
-```markdown
-{{DOI_MARKDOWN}}
-
