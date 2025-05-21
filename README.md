@@ -7,6 +7,7 @@
 <h3> Qompass AI on obs </h3>
 
 ![Repository Views](https://komarev.com/ghpvc/?username=qompassai-obs)
+![GitHub all releases](https://img.shields.io/github/downloads/qompassai/obs/total?style=flat-square)
   <a href="https://obsproject.com/">
   <img src="https://img.shields.io/badge/OBS_Studio-302E31?style=for-the-badge&logo=obsstudio&logoColor=white" alt="OBS Studio">
 </a>
