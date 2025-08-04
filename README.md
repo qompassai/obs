@@ -1,13 +1,16 @@
-<!-- /qompassai/obs/README.md -->
-<!-- ---------------------------- -->
+<!---------------- /qompassai/obs/README.md -------------->
+<!---------------------Qompass AI OBS -------------------->
 <!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
+<!-- ----------------------------------------------------->
 
-<h2> Open Broadcast Studio (aka "obs" </h2>
+<h2> Open Broadcast Studio (aka "obs") </h2>
 
-<h3> Qompass AI on obs </h3>
+<h3> Qompass AI on OBS </h3>
 
 ![Repository Views](https://komarev.com/ghpvc/?username=qompassai-obs)
 ![GitHub all releases](https://img.shields.io/github/downloads/qompassai/obs/total?style=flat-square)
+
+<p align="center">
   <a href="https://obsproject.com/">
   <img src="https://img.shields.io/badge/OBS_Studio-302E31?style=for-the-badge&logo=obsstudio&logoColor=white" alt="OBS Studio">
 </a>
@@ -19,6 +22,7 @@
   <img src="https://img.shields.io/badge/OBS_Tutorials-green?style=flat-square" alt="OBS Studio Tutorials">
 </a>
 <br>
+<a href="https://doi.org/10.5281/zenodo.16171391"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16171391.svg" alt="DOI"></a>
   <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" alt="License: AGPL v3"></a>
   <a href="./LICENSE-QCDA"><img src="https://img.shields.io/badge/license-Q--CDA-lightgrey.svg" alt="License: Q-CDA"></a>
 </p>
@@ -52,7 +56,6 @@ bash <(curl -L https://raw.githubusercontent.com/qompassai/dotfiles/main/scripts
 # Qompass AI Quick Start Script
 # Copyright (C) 2025 Qompass AI, All rights reserved
 ####################################################
-
 REPO="https://github.com/qompassai/dotfiles"
 TARGET_DIR="$HOME/.dotfiles"
 if [ -d "$TARGET_DIR" ]; then
@@ -209,7 +212,7 @@ nix develop --command "$USER_SHELL"
 **Monero (XMR):**
 
 <div align="center">
-  <img src="./assets/monero-qr.png" alt="Monero QR Code" width="180">
+  <img src="https://raw.githubusercontent.com/qompassai/svg/main/assets/monero-qr.svg" alt="Monero QR Code" width="180">
 </div>
 
 <div style="margin: 10px 0;">
@@ -256,17 +259,17 @@ Where:
 For neural networks, the bias term is incorporated before activation:
 
 $$
-z = \\sum\_{i=1}^{n} w_ix_i + b
+z = \sum_{i=1}^{n} w_ix_i + b
 $$
 $$
-a = \\sigma(z)
+a = \sigma(z)
 $$
 
 Where:
 
 - $z$ is the weighted sum plus bias
 - $a$ is the activation output
-- $\\sigma$ is the activation function
+- $\sigma$ is the activation function
 
 ### Attention Mechanism- aka what makes the Transformer (The "T" in ChatGPT) powerful
 
@@ -277,7 +280,7 @@ Where:
 The Attention mechanism equation is:
 
 $$
-\\text{Attention}(Q, K, V) = \\text{softmax}\\left( \\frac{QK^T}{\\sqrt{d_k}} \\right) V
+Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V
 $$
 
 Where:
@@ -286,7 +289,7 @@ Where:
 - $K$ represents the Key matrix
 - $V$ represents the Value matrix
 - $d_k$ is the dimension of the key vectors
-- $\\text{softmax}(\\cdot)$ normalizes scores to sum to 1
+- $\text{softmax}(\cdot)$ normalizes scores to sum to 1
 
 ### Q: Do I have to buy a Linux computer to use this? I don't have time for that!
 
